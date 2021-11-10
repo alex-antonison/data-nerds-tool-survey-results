@@ -1,0 +1,27 @@
+Timestamp,What kind work do you most often do do?,How long have you been working in data?,"What programming language(s) do you use for processing or analyzing data? If you have multiple Other languages, please use a `,` to separate them.","What programming language packages do you normally use? (please use a `,` to separate each package)","What data tools do you use for processing and analyzing data? If you have multiple Other tools you use, please use a `,` to separate them.",What cloud provider do you primarily use?
+8/17/2021 1:40:31,Data Analytics/Business Intelligence,5+ years,"Python, R, SQL","pandas, matplotlb, seaborn","Tableau, Visual Studio Code, Atom, DBeaver",Amazon Web Services
+8/17/2021 2:05:09,Data Engineering,5+ years,"R, SQL",Tidyverse,"Tableau, Excel, Alteryx, RStudio",Microsoft Azure
+8/17/2021 3:16:34,Data Science,5+ years,Python,Jupyter notebooks,"Tableau, Excel, Juicebox",Amazon Web Services
+8/17/2021 11:27:36,Data Science,0 to 2 years,"R, SQL, SAS, STATA",dplyr,,SAS sever
+8/17/2021 12:17:06,Data Science,5+ years,"Python, SQL","Spacy,gensim,pandas,sqlalchemy","PyCharm, Jupyer",Amazon Web Services
+8/17/2021 16:08:18,"Search  Relevance, so  it's hard to classify",0 to 2 years,"Python, SQL, Solr Streaming Expressions",,"Looker, Atom",
+8/17/2021 18:53:14,Data Science,5+ years,"R, SQL",,"Excel, Visual Studio Code",Microsoft Azure
+8/17/2021 19:59:45,Data Analytics/Business Intelligence,5+ years,"Python, VBA, C++","pandas, matplotlib, plotly, seaborn, numpy, scipy, os, jupyter, ipython, dask ","PowerBI, Excel, Qlik, Visual Studio Code",In the market
+8/17/2021 22:26:20,Data Analytics/Business Intelligence,0 to 2 years,"Python, SQL","Pandas, numpy, matplotlib","Excel, DBeaver, AWS Athena, AWS Quicksight, Sublime",Amazon Web Services
+8/18/2021 3:33:26,Data Science,5+ years,"Python, R, SQL, Stata","tidyverse,ggplot2,sf,matplotlib,pandas,scipy,","Tableau, PowerBI, Looker, Excel, Juicebox, DBeaver",Google Cloud Services
+8/19/2021 14:08:46,Data Analytics/Business Intelligence,5+ years,"Python, R, SQL","tidyverse, pandas",PyCharm,Amazon Web Services
+8/19/2021 19:08:56,Data Science,0 to 2 years,"Python, SQL","pandas, numpy","Visual Studio Code, Atom",Amazon Web Services
+8/21/2021 11:12:48,Data Analytics/Business Intelligence,0 to 2 years,"Python, SQL",,"Tableau, PowerBI",Microsoft Azure
+8/22/2021 22:38:34,Data Science,2 to 5 years,"Python, R, SQL, Scala","Pandas, NumPy, ggplot, etc","Tableau, PowerBI, Excel, SQLAnalytics, Pandas",Databricks 
+8/24/2021 17:14:46,Machine Learning Engineering,5+ years,"R, SQL",Tidyverse,"PowerBI, Excel, Visual Studio Code, DBeaver, Databricks ",Microsoft Azure
+8/26/2021 1:03:11,Data Science,5+ years,Python,"NLTK,PANDAS",jupyter,
+8/26/2021 13:06:13,Machine learning research; Science that generates lots of data,5+ years,"Python, Javascript","PyTorch, FastAI, Plotly, Bokeh, Keras, NumPy, Numba, D3.js, Vis.js","Excel, Atom","None, custom-built workstations "
+9/4/2021 21:58:45,Data Analytics/Business Intelligence,2 to 5 years,SQL,,DataGrip,Google Cloud Services
+9/4/2021 23:54:02,Salesforce development,0 to 2 years,,"Apex, Java",Excel,Amazon Web Services
+9/7/2021 2:06:48,Machine Learning Engineering,2 to 5 years,Python,"sklearn,kedro,dvc,mlflow,optuna,tensorflow,keras,pytorch,boto3,pandas,matplotlib,seaborn,numpy",Visual Studio Code,
+9/13/2021 17:49:23,Data Engineering,0 to 2 years,"Python, SQL",,"Tableau, Excel, Atom, DataGrip",Amazon Web Services
+11/2/2021 1:34:56,Data Analytics/Business Intelligence,2 to 5 years,SQL,,"Tableau, Excel",Google Cloud Services
+11/9/2021 10:17:48,Data Science,0 to 2 years,"Python, SQL","pandas, scikit-learn, dbt","Tableau, PowerBI, Looker, Visual Studio Code",Amazon Web Services
+11/9/2021 10:23:38,Business management ,0 to 2 years,Excel,None,Excel,Google Cloud Services
+11/9/2021 10:26:45,Programming / Developer work,5+ years,"Python, SQL, Oracle PL/SQL",,"Tableau, Excel, PyCharm, UltraEdit",None
+11/9/2021 13:52:03,Machine Learning Engineering,5+ years,"Python, R, SQL","tidyverse, pandas, numpy","PowerBI, Excel, Visual Studio Code, DBeaver, RStudio",Microsoft Azure
