@@ -1,0 +1,54 @@
+[tool.poetry]
+name = "data-nerds-tool-survey-results"
+version = "0.1.0"
+description = "This repo is for analyzing the results from the Data Nerds Tool survey"
+authors = ["Alex Antonison"]
+
+[tool.poetry.dependencies]
+python = "3.10.0"
+pandas = "^1.3.4"
+
+[tool.poetry.dev-dependencies]
+isort = "^5.9.3"
+black = "^21.9b0"
+pytest = "^=6.2.0"
+flake8 = "^3.9.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+src_paths = ["src", "tests"]
+multi_line_output=3
+include_trailing_comma="True"
+force_grid_wrap=0
+use_parentheses="True"
+line_length=120
+skip=".vscode, .tox, .git"
+default_section="THIRDPARTY"
+sections="FUTURE,STDLIB,THIRDPARTY,FIRSTPARTY,LOCALFOLDER"
+
+[tool.pytest.ini_options]
+addopts = "--strict-markers -v"
+markers = ["unit_test",
+]
+testpaths = "tests"
+
+[tool.black]
+line-length = 120
+exclude = '''
+/(
+  # Directories
+    \.eggs
+  | \.git
+  | \.vscode
+  | \.tox
+  | \.venv
+  | \.ropeproject
+  | build
+  | venv
+  | .*egg-info
+)/
+'''
+
