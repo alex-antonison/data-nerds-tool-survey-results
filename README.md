@@ -11,3 +11,7 @@ In this repository, I am analyzing the results from the Data Nerds Data Tools su
 - A [Makefile](Makefile) that streamlines common commands as well as used in the GitHub Actions.
 - A [LICENSE](LICENSE) file which is good to ensure no one steals or misuses your project.
 - A [.pre-commit] file which will run a series of checks prior to committing a change.  You can read more about pre-commit checks [here](https://pre-commit.com/)
+
+## Note
+
+Normally I would do my prototyping in a separate directory to reduce package dependencies for my data application but for the sake of highlighting my workflow and process, I decided to keep it in here.
