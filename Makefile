@@ -25,10 +25,7 @@ run-isort:
 	poetry run isort src --check
 	poetry run isort tests --check
 
-run-mypy:
-	poetry run mypy src/process_survey_results.py
-
-run-ci: run-black run-isort run-flake8 run-mypy
+run-ci: run-black run-isort run-flake8
 
 run-pytest:
 	PYTHONPATH=./src/ poetry run pytest

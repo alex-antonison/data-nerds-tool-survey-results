@@ -15,7 +15,6 @@ black = "^21.9b0"
 pytest = "^=6.2.0"
 flake8 = "^3.9.2"
 jupyter = "*"
-mypy = "*"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
