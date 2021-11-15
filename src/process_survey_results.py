@@ -57,8 +57,8 @@ def standardize_survey_list(row):
 
 def map_values_for_column(df, target_column, mapped_df):
     """This method will loop through each entry in a mapping dataframe
-    and replace the original values with the mapped values.  This is helpful
-    for cleaning up the results for analysis.
+    and replace the original values with the mapped values in the source dataframe.
+    This is helpful for cleaning up the results for analysis.
 
     All mapped values can be found in the `mapping/` directory.
 
@@ -102,6 +102,7 @@ def process_survey_results(df, survey_column, mapping_df=None):
     # standardize all of the survey results
     df["survey_column"] = df.apply(lambda row: standardize_survey_list(row["survey_column"]), axis=1)
 
+    # this pivots the list in each row to itself be its own row
     df = df.explode("survey_column")
 
     # reset index and rename column to the survey column
