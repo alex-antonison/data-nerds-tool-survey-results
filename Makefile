@@ -29,3 +29,6 @@ run-ci: run-black run-isort run-flake8
 
 run-pytest:
 	PYTHONPATH=./src/ poetry run pytest
+
+run-processing-script:
+	poetry run python src/process_survey_results.py
