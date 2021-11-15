@@ -1,11 +1,13 @@
 import pandas as pd
+import pytest
 
 from process_survey_results import map_values_for_column, standardize_survey_list
 
 
+@pytest.mark.unit_test
 def test_standardize_survey_list():
     """This test ensures that the standardize_survey_list method correctly cleans up the
-    different iterms returning a clean list for analysis
+    different items returning a clean list for analysis
     """
     test_list = ["Pandas", "pandas ", "tidyveRse", " Looker"]
 
@@ -15,6 +17,7 @@ def test_standardize_survey_list():
     assert standardized_list == ["looker", "pandas", "tidyverse"]
 
 
+@pytest.mark.unit_test
 def test_map_values_for_column():
     """This test shows that the mapping function correctly maps only the target column
     and correctly maps the desired values"""
