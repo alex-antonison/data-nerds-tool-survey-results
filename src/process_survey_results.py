@@ -79,7 +79,8 @@ def map_values_for_column(df, target_column, mapped_df):
 
 def process_survey_results(df, survey_column, mapping_df=None):
     """This method will produce individual dataframes with the specified `survey_column`
-    results processed and ready for anlaysis.
+    results processed and ready for analysis.  Lastly it aggregates the results into a single count
+    column.
 
     Args:
         df (dataframe): The survey dataframe that has the survey results
@@ -115,7 +116,7 @@ def process_survey_results(df, survey_column, mapping_df=None):
     df = df[df[survey_column].notnull()]
     df = df[df[survey_column] != ""]
 
-    # summarize results
+    # aggregate results
     df = df.groupby(list(df.columns)).size().reset_index(name="count")
 
     return df
