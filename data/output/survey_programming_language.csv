@@ -1,56 +1,36 @@
-role,years_experience,programming_language
-Data Analytics/Business Intelligence,5+ years,python
-Data Analytics/Business Intelligence,5+ years,sql
-Data Analytics/Business Intelligence,5+ years,r
-Data Engineering,5+ years,sql
-Data Engineering,5+ years,r
-Data Science,5+ years,python
-Data Science,0 to 2 years,stata
-Data Science,0 to 2 years,sas
-Data Science,0 to 2 years,sql
-Data Science,0 to 2 years,r
-Data Science,5+ years,python
-Data Science,5+ years,sql
-Other,0 to 2 years,solr
-Other,0 to 2 years,python
-Other,0 to 2 years,sql
-Data Science,5+ years,sql
-Data Science,5+ years,r
-Data Analytics/Business Intelligence,5+ years,vba
-Data Analytics/Business Intelligence,5+ years,python
-Data Analytics/Business Intelligence,5+ years,c++
-Data Analytics/Business Intelligence,0 to 2 years,python
-Data Analytics/Business Intelligence,0 to 2 years,sql
-Data Science,5+ years,stata
-Data Science,5+ years,python
-Data Science,5+ years,sql
-Data Science,5+ years,r
-Data Analytics/Business Intelligence,5+ years,python
-Data Analytics/Business Intelligence,5+ years,sql
-Data Analytics/Business Intelligence,5+ years,r
-Data Science,0 to 2 years,python
-Data Science,0 to 2 years,sql
-Data Analytics/Business Intelligence,0 to 2 years,python
-Data Analytics/Business Intelligence,0 to 2 years,sql
-Data Science,2 to 5 years,scala
-Data Science,2 to 5 years,python
-Data Science,2 to 5 years,sql
-Data Science,2 to 5 years,r
-Machine Learning Engineering,5+ years,sql
-Machine Learning Engineering,5+ years,r
-Data Science,5+ years,python
-Other,5+ years,python
-Other,5+ years,javascript
-Data Analytics/Business Intelligence,2 to 5 years,sql
-Machine Learning Engineering,2 to 5 years,python
-Data Engineering,0 to 2 years,python
-Data Engineering,0 to 2 years,sql
-Data Analytics/Business Intelligence,2 to 5 years,sql
-Data Science,0 to 2 years,python
-Data Science,0 to 2 years,sql
-Other,5+ years,sql
-Other,5+ years,python
-Other,5+ years,sql
-Machine Learning Engineering,5+ years,python
-Machine Learning Engineering,5+ years,sql
-Machine Learning Engineering,5+ years,r
+role,years_experience,programming_language,count
+Data Analytics/Business Intelligence,0 to 2 years,python,2
+Data Analytics/Business Intelligence,0 to 2 years,sql,2
+Data Analytics/Business Intelligence,2 to 5 years,sql,2
+Data Analytics/Business Intelligence,5+ years,c++,1
+Data Analytics/Business Intelligence,5+ years,python,3
+Data Analytics/Business Intelligence,5+ years,r,2
+Data Analytics/Business Intelligence,5+ years,sql,2
+Data Analytics/Business Intelligence,5+ years,vba,1
+Data Engineering,0 to 2 years,python,1
+Data Engineering,0 to 2 years,sql,1
+Data Engineering,5+ years,r,1
+Data Engineering,5+ years,sql,1
+Data Science,0 to 2 years,python,2
+Data Science,0 to 2 years,r,1
+Data Science,0 to 2 years,sas,1
+Data Science,0 to 2 years,sql,3
+Data Science,0 to 2 years,stata,1
+Data Science,2 to 5 years,python,1
+Data Science,2 to 5 years,r,1
+Data Science,2 to 5 years,scala,1
+Data Science,2 to 5 years,sql,1
+Data Science,5+ years,python,4
+Data Science,5+ years,r,2
+Data Science,5+ years,sql,3
+Data Science,5+ years,stata,1
+Machine Learning Engineering,2 to 5 years,python,1
+Machine Learning Engineering,5+ years,python,1
+Machine Learning Engineering,5+ years,r,2
+Machine Learning Engineering,5+ years,sql,2
+Other,0 to 2 years,python,1
+Other,0 to 2 years,solr,1
+Other,0 to 2 years,sql,1
+Other,5+ years,javascript,1
+Other,5+ years,python,2
+Other,5+ years,sql,2

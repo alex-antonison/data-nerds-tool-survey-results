@@ -1,71 +1,64 @@
-role,years_experience,programming_package
-Data Analytics/Business Intelligence,5+ years,matplotlb
-Data Analytics/Business Intelligence,5+ years,seaborn
-Data Analytics/Business Intelligence,5+ years,pandas
-Data Engineering,5+ years,tidyverse
-Data Science,5+ years,jupyter
-Data Science,0 to 2 years,dplyr
-Data Science,5+ years,sqlalchemy
-Data Science,5+ years,spacy
-Data Science,5+ years,pandas
-Data Science,5+ years,gensim
-Data Analytics/Business Intelligence,5+ years,ipython
-Data Analytics/Business Intelligence,5+ years,seaborn
-Data Analytics/Business Intelligence,5+ years,matplotlib
-Data Analytics/Business Intelligence,5+ years,dask
-Data Analytics/Business Intelligence,5+ years,scipy
-Data Analytics/Business Intelligence,5+ years,pandas
-Data Analytics/Business Intelligence,5+ years,os
-Data Analytics/Business Intelligence,5+ years,jupyter
-Data Analytics/Business Intelligence,5+ years,plotly
-Data Analytics/Business Intelligence,5+ years,numpy
-Data Analytics/Business Intelligence,0 to 2 years,matplotlib
-Data Analytics/Business Intelligence,0 to 2 years,pandas
-Data Analytics/Business Intelligence,0 to 2 years,numpy
-Data Science,5+ years,tidyverse
-Data Science,5+ years,matplotlib
-Data Science,5+ years,sf
-Data Science,5+ years,scipy
-Data Science,5+ years,pandas
-Data Science,5+ years,ggplot2
-Data Analytics/Business Intelligence,5+ years,tidyverse
-Data Analytics/Business Intelligence,5+ years,pandas
-Data Science,0 to 2 years,pandas
-Data Science,0 to 2 years,numpy
-Data Science,2 to 5 years,ggplot
-Data Science,2 to 5 years,pandas
-Data Science,2 to 5 years,numpy
-Data Science,2 to 5 years,etc
-Machine Learning Engineering,5+ years,tidyverse
-Data Science,5+ years,nltk
-Data Science,5+ years,pandas
-Other,5+ years,bokeh
-Other,5+ years,keras
-Other,5+ years,fastai
-Other,5+ years,vis.js
-Other,5+ years,pytorch
-Other,5+ years,d3.js
-Other,5+ years,numba
-Other,5+ years,plotly
-Other,5+ years,numpy
-Other,0 to 2 years,apex
-Other,0 to 2 years,java
-Machine Learning Engineering,2 to 5 years,keras
-Machine Learning Engineering,2 to 5 years,seaborn
-Machine Learning Engineering,2 to 5 years,boto3
-Machine Learning Engineering,2 to 5 years,tensorflow
-Machine Learning Engineering,2 to 5 years,matplotlib
-Machine Learning Engineering,2 to 5 years,optuna
-Machine Learning Engineering,2 to 5 years,pytorch
-Machine Learning Engineering,2 to 5 years,mlflow
-Machine Learning Engineering,2 to 5 years,pandas
-Machine Learning Engineering,2 to 5 years,dvc
-Machine Learning Engineering,2 to 5 years,scikit-learn
-Machine Learning Engineering,2 to 5 years,numpy
-Machine Learning Engineering,2 to 5 years,kedro
-Data Science,0 to 2 years,scikit-learn
-Data Science,0 to 2 years,dbt
-Data Science,0 to 2 years,pandas
-Machine Learning Engineering,5+ years,tidyverse
-Machine Learning Engineering,5+ years,pandas
-Machine Learning Engineering,5+ years,numpy
+role,years_experience,programming_package,count
+Data Analytics/Business Intelligence,0 to 2 years,matplotlib,1
+Data Analytics/Business Intelligence,0 to 2 years,numpy,1
+Data Analytics/Business Intelligence,0 to 2 years,pandas,1
+Data Analytics/Business Intelligence,5+ years,dask,1
+Data Analytics/Business Intelligence,5+ years,ipython,1
+Data Analytics/Business Intelligence,5+ years,jupyter,1
+Data Analytics/Business Intelligence,5+ years,matplotlb,1
+Data Analytics/Business Intelligence,5+ years,matplotlib,1
+Data Analytics/Business Intelligence,5+ years,numpy,1
+Data Analytics/Business Intelligence,5+ years,os,1
+Data Analytics/Business Intelligence,5+ years,pandas,3
+Data Analytics/Business Intelligence,5+ years,plotly,1
+Data Analytics/Business Intelligence,5+ years,scipy,1
+Data Analytics/Business Intelligence,5+ years,seaborn,2
+Data Analytics/Business Intelligence,5+ years,tidyverse,1
+Data Engineering,5+ years,tidyverse,1
+Data Science,0 to 2 years,dbt,1
+Data Science,0 to 2 years,dplyr,1
+Data Science,0 to 2 years,numpy,1
+Data Science,0 to 2 years,pandas,2
+Data Science,0 to 2 years,scikit-learn,1
+Data Science,2 to 5 years,etc,1
+Data Science,2 to 5 years,ggplot,1
+Data Science,2 to 5 years,numpy,1
+Data Science,2 to 5 years,pandas,1
+Data Science,5+ years,gensim,1
+Data Science,5+ years,ggplot2,1
+Data Science,5+ years,jupyter,1
+Data Science,5+ years,matplotlib,1
+Data Science,5+ years,nltk,1
+Data Science,5+ years,pandas,3
+Data Science,5+ years,scipy,1
+Data Science,5+ years,sf,1
+Data Science,5+ years,spacy,1
+Data Science,5+ years,sqlalchemy,1
+Data Science,5+ years,tidyverse,1
+Machine Learning Engineering,2 to 5 years,boto3,1
+Machine Learning Engineering,2 to 5 years,dvc,1
+Machine Learning Engineering,2 to 5 years,kedro,1
+Machine Learning Engineering,2 to 5 years,keras,1
+Machine Learning Engineering,2 to 5 years,matplotlib,1
+Machine Learning Engineering,2 to 5 years,mlflow,1
+Machine Learning Engineering,2 to 5 years,numpy,1
+Machine Learning Engineering,2 to 5 years,optuna,1
+Machine Learning Engineering,2 to 5 years,pandas,1
+Machine Learning Engineering,2 to 5 years,pytorch,1
+Machine Learning Engineering,2 to 5 years,scikit-learn,1
+Machine Learning Engineering,2 to 5 years,seaborn,1
+Machine Learning Engineering,2 to 5 years,tensorflow,1
+Machine Learning Engineering,5+ years,numpy,1
+Machine Learning Engineering,5+ years,pandas,1
+Machine Learning Engineering,5+ years,tidyverse,2
+Other,0 to 2 years,apex,1
+Other,0 to 2 years,java,1
+Other,5+ years,bokeh,1
+Other,5+ years,d3.js,1
+Other,5+ years,fastai,1
+Other,5+ years,keras,1
+Other,5+ years,numba,1
+Other,5+ years,numpy,1
+Other,5+ years,plotly,1
+Other,5+ years,pytorch,1
+Other,5+ years,vis.js,1
