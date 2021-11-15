@@ -42,7 +42,7 @@ def load_survey_data():
 
 def standardize_survey_list(row):
     """This function takes in a list for a given row of a survey result and will
-    lower-case it and strip it of all white space
+    lower-case it and strip out white space from left and right of the string.
 
     Args:
         row (list): A list of survey results
