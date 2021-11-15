@@ -1,0 +1,60 @@
+role,years_experience,data_tool,count
+Data Analytics/Business Intelligence,0 to 2 years,aws athena,1
+Data Analytics/Business Intelligence,0 to 2 years,aws quicksight,1
+Data Analytics/Business Intelligence,0 to 2 years,dbeaver,1
+Data Analytics/Business Intelligence,0 to 2 years,excel,1
+Data Analytics/Business Intelligence,0 to 2 years,powerbi,1
+Data Analytics/Business Intelligence,0 to 2 years,sublime,1
+Data Analytics/Business Intelligence,0 to 2 years,tableau,1
+Data Analytics/Business Intelligence,2 to 5 years,datagrip,1
+Data Analytics/Business Intelligence,2 to 5 years,excel,1
+Data Analytics/Business Intelligence,2 to 5 years,tableau,1
+Data Analytics/Business Intelligence,5+ years,atom,1
+Data Analytics/Business Intelligence,5+ years,dbeaver,1
+Data Analytics/Business Intelligence,5+ years,excel,1
+Data Analytics/Business Intelligence,5+ years,powerbi,1
+Data Analytics/Business Intelligence,5+ years,pycharm,1
+Data Analytics/Business Intelligence,5+ years,qlik,1
+Data Analytics/Business Intelligence,5+ years,tableau,1
+Data Analytics/Business Intelligence,5+ years,visual studio code,2
+Data Engineering,0 to 2 years,atom,1
+Data Engineering,0 to 2 years,datagrip,1
+Data Engineering,0 to 2 years,excel,1
+Data Engineering,0 to 2 years,tableau,1
+Data Engineering,5+ years,alteryx,1
+Data Engineering,5+ years,excel,1
+Data Engineering,5+ years,rstudio,1
+Data Engineering,5+ years,tableau,1
+Data Science,0 to 2 years,atom,1
+Data Science,0 to 2 years,looker,1
+Data Science,0 to 2 years,powerbi,1
+Data Science,0 to 2 years,tableau,1
+Data Science,0 to 2 years,visual studio code,2
+Data Science,2 to 5 years,excel,1
+Data Science,2 to 5 years,powerbi,1
+Data Science,2 to 5 years,sqlanalytics,1
+Data Science,2 to 5 years,tableau,1
+Data Science,5+ years,dbeaver,1
+Data Science,5+ years,excel,3
+Data Science,5+ years,juicebox,2
+Data Science,5+ years,jupyter-notebooks,2
+Data Science,5+ years,looker,1
+Data Science,5+ years,powerbi,1
+Data Science,5+ years,pycharm,1
+Data Science,5+ years,tableau,2
+Data Science,5+ years,visual studio code,1
+Machine Learning Engineering,2 to 5 years,visual studio code,1
+Machine Learning Engineering,5+ years,databricks,1
+Machine Learning Engineering,5+ years,dbeaver,2
+Machine Learning Engineering,5+ years,excel,2
+Machine Learning Engineering,5+ years,powerbi,2
+Machine Learning Engineering,5+ years,rstudio,1
+Machine Learning Engineering,5+ years,visual studio code,2
+Other,0 to 2 years,atom,1
+Other,0 to 2 years,excel,2
+Other,0 to 2 years,looker,1
+Other,5+ years,atom,1
+Other,5+ years,excel,2
+Other,5+ years,pycharm,1
+Other,5+ years,tableau,1
+Other,5+ years,ultraedit,1
