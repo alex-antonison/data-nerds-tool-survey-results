@@ -3,3 +3,4 @@ orig_cloud_provider,mapped_cloud_provider
 "in the market",null
 "none",null
 "sas sever","sas"
+"none. local machines.","on-prem"
