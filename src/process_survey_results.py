@@ -2,10 +2,9 @@ import os
 
 import pandas as pd
 import yaml
-from pandas.core.frame import DataFrame
 
 
-def load_env_var(env_file_path: str) -> None:
+def load_env_var(env_file_path):
     """Loads all of the environment variables from config/env.yml into
     the os environment.
 
@@ -23,7 +22,7 @@ def load_env_var(env_file_path: str) -> None:
             print(exc)
 
 
-def load_survey_data() -> DataFrame:
+def load_survey_data():
     """Reads the survey results from configured location"""
     columns = [
         "timestamp",
@@ -41,7 +40,7 @@ def load_survey_data() -> DataFrame:
     return survey_df
 
 
-def standardize_survey_list(row: list) -> list:
+def standardize_survey_list(row):
     """This function takes in a list for a given row of a survey result and will
     lower-case it and strip it of all white space
 
@@ -56,7 +55,7 @@ def standardize_survey_list(row: list) -> list:
     return list(set(clean_row))
 
 
-def map_values_for_column(df: DataFrame, target_column: str, mapped_df: DataFrame) -> DataFrame:
+def map_values_for_column(df, target_column, mapped_df):
     """This method will loop through each entry in a mapping dataframe
     and replace the original values with the mapped values.  This is helpful
     for cleaning up the results for analysis.
