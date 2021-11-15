@@ -7,6 +7,7 @@ authors = ["Alex Antonison"]
 [tool.poetry.dependencies]
 python = "3.10.0"
 pandas = "^1.3.4"
+pyyaml = "*"
 
 [tool.poetry.dev-dependencies]
 isort = "^5.9.3"
@@ -14,6 +15,7 @@ black = "^21.9b0"
 pytest = "^=6.2.0"
 flake8 = "^3.9.2"
 jupyter = "*"
+mypy = "*"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
