@@ -139,6 +139,12 @@ def main():
     # standardize roles from survey results
     survey_data_df = map_values_for_column(survey_data_df, "role", role_map_df)
 
+    # save out survey results role and years of experience
+    summarized_role_experience_df = (
+        survey_data_df.groupby(["role", "years_experience"]).size().reset_index(name="count")
+    )
+    summarized_role_experience_df.to_csv(os.environ["output_role_years_exp"], index=False)
+
     # process the survey results
     programming_language_survey_df = process_survey_results(
         survey_data_df, survey_column="programming_language", mapping_df=prog_language_map_df
