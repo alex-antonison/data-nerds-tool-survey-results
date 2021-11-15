@@ -10,7 +10,7 @@ In this repository, I am analyzing the results from the Data Nerds Data Tools su
 - A [Pull Request Template](./.github/pull_request_template.md) which is useful for pre-populating the Pull Request description.
 - A [Makefile](Makefile) that streamlines common commands as well as used in the GitHub Actions.
 - A [LICENSE](LICENSE) file which is good to ensure no one steals or misuses your project.
-- A [.pre-commit] file which will run a series of checks prior to committing a change.  You can read more about pre-commit checks [here](https://pre-commit.com/)
+- A [.pre-commit](./.pre-commit-config.yaml) file which will run a series of checks prior to committing a change.  You can read more about pre-commit checks [here](https://pre-commit.com/)
 
 ## Note
 
