@@ -115,6 +115,9 @@ def process_survey_results(df, survey_column, mapping_df=None):
     df = df[df[survey_column].notnull()]
     df = df[df[survey_column] != ""]
 
+    # summarize results
+    df = df.groupby(list(df.columns)).size().reset_index(name="count")
+
     return df
 
 
