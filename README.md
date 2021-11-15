@@ -18,4 +18,4 @@ Normally I would do my prototyping in a separate directory to reduce package dep
 
 ## Results Juicebox Summary
 
-Visualized results of the survey can be found here [Juicebox - Data Tools Survey Results](https://antonison-cg.myjuicebox.io/a/data_tools_survey_results/#4t7FF6tw5aa)
+Visualized results of the survey can be found here [Juicebox - Data Tools Survey Results](https://antonison-cg.myjuicebox.io/a/data_tools_survey_results/)
