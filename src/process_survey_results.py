@@ -42,7 +42,7 @@ def load_survey_data():
 
 def standardize_survey_list(row):
     """This function takes in a list for a given row of a survey result and will
-    lower-case it and strip it of all white space
+    lower-case it and strip out white space from left and right of the string.
 
     Args:
         row (list): A list of survey results
@@ -57,8 +57,8 @@ def standardize_survey_list(row):
 
 def map_values_for_column(df, target_column, mapped_df):
     """This method will loop through each entry in a mapping dataframe
-    and replace the original values with the mapped values.  This is helpful
-    for cleaning up the results for analysis.
+    and replace the original values with the mapped values in the source dataframe.
+    This is helpful for cleaning up the results for analysis.
 
     All mapped values can be found in the `mapping/` directory.
 
@@ -102,6 +102,7 @@ def process_survey_results(df, survey_column, mapping_df=None):
     # standardize all of the survey results
     df["survey_column"] = df.apply(lambda row: standardize_survey_list(row["survey_column"]), axis=1)
 
+    # this pivots the list in each row to itself be its own row
     df = df.explode("survey_column")
 
     # reset index and rename column to the survey column
@@ -137,6 +138,15 @@ def main():
 
     # standardize roles from survey results
     survey_data_df = map_values_for_column(survey_data_df, "role", role_map_df)
+
+    # drop instances where no value for role was provided
+    survey_data_df = survey_data_df[survey_data_df["role"].notnull()]
+
+    # save out survey results role and years of experience
+    summarized_role_experience_df = (
+        survey_data_df.groupby(["role", "years_experience"]).size().reset_index(name="count")
+    )
+    summarized_role_experience_df.to_csv(os.environ["output_role_years_exp"], index=False)
 
     # process the survey results
     programming_language_survey_df = process_survey_results(
