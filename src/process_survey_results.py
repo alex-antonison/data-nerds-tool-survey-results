@@ -139,6 +139,9 @@ def main():
     # standardize roles from survey results
     survey_data_df = map_values_for_column(survey_data_df, "role", role_map_df)
 
+    # drop instances where no value for role was provided
+    survey_data_df = survey_data_df[survey_data_df["role"].notnull()]
+
     # save out survey results role and years of experience
     summarized_role_experience_df = (
         survey_data_df.groupby(["role", "years_experience"]).size().reset_index(name="count")
