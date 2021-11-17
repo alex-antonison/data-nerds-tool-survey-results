@@ -1,17 +1,19 @@
 role,years_experience,cloud_provider,count
-Data Analytics/Business Intelligence,0 to 2 years,amazon web services,2
+Data Analytics/Business Intelligence,0 to 2 years,amazon web services,3
 Data Analytics/Business Intelligence,0 to 2 years,google cloud services,1
 Data Analytics/Business Intelligence,0 to 2 years,microsoft azure,3
 Data Analytics/Business Intelligence,2 to 5 years,google cloud services,2
-Data Analytics/Business Intelligence,5+ years,amazon web services,2
+Data Analytics/Business Intelligence,2 to 5 years,microsoft azure,1
+Data Analytics/Business Intelligence,5+ years,amazon web services,3
 Data Engineering,0 to 2 years,amazon web services,1
 Data Engineering,2 to 5 years,amazon web services,1
-Data Engineering,5+ years,microsoft azure,1
+Data Engineering,5+ years,google cloud services,1
+Data Engineering,5+ years,microsoft azure,2
 Data Science,0 to 2 years,amazon web services,2
 Data Science,0 to 2 years,sas,1
 Data Science,2 to 5 years,databricks,1
-Data Science,5+ years,amazon web services,3
-Data Science,5+ years,google cloud services,1
+Data Science,5+ years,amazon web services,4
+Data Science,5+ years,google cloud services,2
 Data Science,5+ years,microsoft azure,1
 Data Science,5+ years,on-prem,1
 Machine Learning Engineering,2 to 5 years,amazon web services,1
