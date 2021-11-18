@@ -27,7 +27,6 @@ Data Science,0 to 2 years,dplyr,1
 Data Science,0 to 2 years,numpy,1
 Data Science,0 to 2 years,pandas,2
 Data Science,0 to 2 years,scikit-learn,1
-Data Science,2 to 5 years,etc,1
 Data Science,2 to 5 years,ggplot,1
 Data Science,2 to 5 years,numpy,1
 Data Science,2 to 5 years,pandas,1
@@ -50,7 +49,6 @@ Data Science,5+ years,sqlalchemy,1
 Data Science,5+ years,tidyverse,1
 Machine Learning Engineering,2 to 5 years,boto3,1
 Machine Learning Engineering,2 to 5 years,dvc,1
-Machine Learning Engineering,2 to 5 years,etc.,1
 Machine Learning Engineering,2 to 5 years,kedro,1
 Machine Learning Engineering,2 to 5 years,keras,2
 Machine Learning Engineering,2 to 5 years,matplotlib,1
